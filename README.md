@@ -1,2 +1,2 @@
-# Fantasy-Football-Anaylsis
-To store the research and anaylsis conducted in class
+# Fantasy-Football-Analysis
+To store the research and analysis conducted in class
