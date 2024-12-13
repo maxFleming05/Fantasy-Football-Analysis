@@ -4,7 +4,7 @@ For this project, Kunal and I went on a deep dive through this dataset that we f
 [<---](https://maxfleming05.github.io/)
 ---
 
-Google Colab Document
+Google Colab 
 [Document](/Final_Project.ipynb)
 
 ---
