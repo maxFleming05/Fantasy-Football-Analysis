@@ -5,7 +5,7 @@ For this project, Kunal and I went on a deep dive through this dataset that we f
 ---
 
 Google Colab Document
-![Document](Final_project.ipynb)
+[Document](/Final_project.ipynb)
 
 ---
  # Analysis of Fantasy Football Data (2017-2022)
