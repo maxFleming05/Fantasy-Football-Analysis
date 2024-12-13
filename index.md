@@ -2,6 +2,7 @@
 For this project, Kunal and I went on a deep dive through this dataset that we found on [Kaggle](https://www.kaggle.com/datasets/gbolduc/fantasy-football-data-2017-2023)
 
 [<---](https://maxfleming05.github.io/)
+---
  # Analysis of Fantasy Football Data (2017-2022)
 
 The dataset we are exploring contains football statistics on quarterbacks, wide receivers, running backs, and tight ends from the 2017-2022 seasons. This dataset was found on Kaggle and contains **3389 rows** and **27 columns** of data, featuring important statistics such as interceptions, touchdowns, fumbles, passing yards, and receiving yards.
