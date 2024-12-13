@@ -31,69 +31,69 @@ To prepare the data, we:
 
 Most data entries were near zero. To address this, we analyzed only the **top 50% of players** in each category. The distributions of rushing, receiving, and passing yards are shown below:
 
-![Histogram of Distributions](image-path.jpg)
+{% include_relative Distribution_of_Rushing_Yards.html %}
 
----
+
+{% include_relative Distribution_of_Receiving_Yards.html %}
+
+
+{% include_relative Distribution_of_Passing_Yards.html %}
+
 
 ## Quarterbacks
 
 We started by examining the **completion percentage** as total throwing yards alone would directly correlate with PPR. The scatter plot of completion percentage against PPR is displayed below:
 
-![Completion Percentage vs PPR](image-path.jpg)
+{% include_relative Scatter_CompPCT_PPR.html %}
 
 ### Observations
 - The correlation between completion percentage and PPR was **0.19**.
 - This weak correlation suggests that completion percentage is not a reliable predictor of a quarterback's fantasy performance.
 
----
 
 ## Wide Receivers
 
 ### Receiving Yards per Reception
 We plotted **receiving yards per reception** (provided in the dataset) against PPR:
 
-![Receiving Yards per Reception vs PPR](image-path.jpg)
+{% include_relative Scatter_YA_PPR.html %}
 
 #### Observations
 - The correlation was only **0.01**, indicating almost no relationship.
 - This result aligns with expectations: good players often have high reception counts, but not all receptions yield significant yardage.
 
----
 
 ### Receiving Yards per Touchdown
 Next, we examined the correlation between **receiving yards per touchdown** and PPR. Receiving yards were divided by touchdowns to compute this metric. The scatter plot is below:
 
-![Receiving Yards per Touchdown vs PPR](image-path.jpg)
+{% include_relative Scatter_YardsperTouchdown_PPR.html %}
 
 #### Observations
 - The correlation was **-0.17**, a weak negative correlation.
 - This suggests that a high number of touchdowns often results in fewer yards per touchdown but does not directly translate to a higher PPR.
 
----
 
 ## Running Backs
 
 ### Rushing Yards per Attempt
 We analyzed **rushing yards per rushing attempt** and compared them to PPR. The scatter plot is displayed below:
 
-![Rushing Yards per Attempt vs PPR](image-path.jpg)
+{% include_relative Scatter_YR_PPR.html %}
 
 #### Observations
 - The correlation was **0.12**, another weak correlation.
 - Players with high rushing attempts don’t necessarily achieve high yards per attempt due to variability in individual plays.
 
----
 
 ### Rushing Yards per Touchdown
 Finally, we compared **rushing yards per touchdown** against PPR:
 
-![Rushing Yards per Touchdown vs PPR](image-path.jpg)
+{% include_relative Scatter_YardsRushingTouchdown_PPR.html %}
 
 #### Observations
 - The correlation was **-0.18**, a weak negative correlation.
 - High-touchdown players often have lower yards per touchdown due to frequent usage in the red zone.
 
----
 
 ## Key Findings
 
@@ -103,7 +103,6 @@ After analyzing fantasy football data from 2017-2022:
 
 These results indicate that predicting top performers using the analyzed statistics alone would be highly uncertain.
 
----
 
 ## Limitations and Future Directions
 
